@@ -5,8 +5,7 @@ import "./App.css";
 import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
 import Home from "./pages/Home/Home";
 import Experience from "./pages/Experience/Experience";
-import Projects from "./pages/Projects/Projects";
-import Someposts from "./pages/SomePosts/Someposts";
+import Projects from "./pages/Projects/Projects"; 
 import Footer from "./components/Footer/Footer";
 function App() {
   return (
@@ -23,9 +22,7 @@ function App() {
 
             {/* Projects page */}
             <Route path="/projects" element={<Projects />} />
-
-            {/* Someposts page */}
-            <Route path="/someposts" element={<Someposts />} />
+ 
           </Routes>
           <Footer/>
         </Router>

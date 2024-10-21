@@ -76,7 +76,7 @@ function Home() {
               <Paragraph
                 title="Some Posts"
                 content={
-                  "For now, there are just some photos of me and the university. Look at my face, what a relief after the submission of my master thesis. "+
+                  "For now, there are just some photos of me and the university. Look at my face, what a relief after the submission of my master thesis. " +
                   "Maybe I will replace some of them with photos personal projects I'm currently working on. "
                 }
               ></Paragraph>
@@ -92,10 +92,12 @@ function Home() {
             </div>
           </Row>
           <Row>
-            <Paragraph
-              title="Motivation to build this homepage"
-              content={motivation_content}
-            ></Paragraph>
+            <div className="last-paragraph">
+              <Paragraph
+                title="Motivation to build this homepage"
+                content={motivation_content}
+              ></Paragraph>
+            </div>
           </Row>
         </Container>
       </div>
