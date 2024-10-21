@@ -1,0 +1,118 @@
+.navbar{  
+  list-style-type: none; /* Remove bullets */
+  margin: 0;
+  padding: 0;
+  position: absolute; /* Use absolute positioning */
+  top: 0; /* Align to the top of the page */
+  right: 0; /* Align to the right of the page */ 
+  white-space: nowrap;
+}
+.header{
+  position: fixed;      /* Makes the navbar fixed at the top */
+  top: 0;               /* Aligns the navbar to the top of the page */
+  left: 0;              /* Aligns the navbar to the left of the page */
+  height: 50px;
+  width: 100%;          /* Makes the navbar span the entire width of the page */ 
+  background-color: #1e1e1e;
+  z-index: 1000;   
+}
+.nav-link {
+  display: flexbox;
+  color: #dcdcdc;
+  text-align: center;
+  padding: 14px 20px;
+  text-decoration: none;
+}
+
+.nav-link:hover {
+  background-color: #2ccffc5d; /*Light background on hover */
+  /* color: rgb(255, 255, 255); Text color on hover */
+}
+.page-title {
+  color: #c586c0;
+  line-height: 1.2;
+  font-size: 2em;
+}
+.myname {
+  margin-left: 1.25%;
+  font-size: 2em;
+  line-height: 1.2;
+}
+ 
+.toggleButton button {
+  margin-right: 5px;
+  margin-top: 5px;
+  position: absolute;
+  right: 10px;  /* Adjust this value to move the icon further to the right */
+  top: 10px;
+  background-color: transparent;
+  border: none;
+  color: white;
+  cursor: pointer;
+  scale: 1.5;
+}
+
+.links.disabled {
+  color: gray;
+  pointer-events: none; /* Disable clicking */
+}
+#open{
+  height: 29vh;
+  background-color: #1e1e1e;
+}
+ 
+#open .links{
+  flex-direction: column; 
+}
+#open a{ 
+  text-align: right ;
+}
+.links { 
+  display: flex; 
+  margin-right: 3%;
+  color: white;
+}
+ 
+@media only screen and (max-width: 850px) and (min-width: 450px) {
+  .toggleButton {
+    margin-left: auto;
+    display: flex;  
+  }
+  .links{
+    margin-top: 40%;
+  }
+  #close a {
+    display: none;
+  } 
+}
+@media only screen and (max-width: 450px) {
+  .toggleButton {
+    margin-left: auto;
+    display: flex; 
+  }
+  .links{
+    margin-top: 40%;
+  }
+  #close a {
+    display: none;
+  }
+  .page-title{
+    display: none;
+  }
+} 
+ 
+@media only screen and (min-width: 850px) {
+  .toggleButton {
+    display: none;
+  }
+  .hiddenLinks {
+    display: none;
+  }
+  #open {
+    height: none;
+  }
+  .links {
+    flex-direction: row;
+  }
+  
+}
