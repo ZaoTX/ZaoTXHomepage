@@ -20,7 +20,7 @@ function Home() {
           <Row>
             <div className="image-container">
               <img
-                src="src/pages/Home/Ziyao_Profilfoto.jpg"
+                src="/images/Home/Ziyao_Profilfoto.jpg"
                 alt="my Photo"
                 className="profile-photo"
               />
@@ -83,9 +83,9 @@ function Home() {
               <div className="carousel-image-container">
                 <Carousel
                   imageurls={[
-                    "src/pages/Home/Uni_foto1.jpg",
-                    "src/pages/Home/UniFoto2.jpg",
-                    "src/pages/Home/UniFoto3.jpg",
+                    "/images/Home/Uni_foto1.jpg",
+                    "/images/Home/UniFoto2.jpg",
+                    "/images/Home/UniFoto3.jpg",
                   ]}
                 ></Carousel>
               </div>
