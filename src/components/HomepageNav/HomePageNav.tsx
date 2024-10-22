@@ -1,6 +1,5 @@
 import { Fragment, useState } from "react";
-import "./HomePageNav.css";
-import { Link } from "react-router-dom";
+import "./HomePageNav.css"; 
 import { HashLink } from "react-router-hash-link";
 function HomePageNav() {
   const [expandNav, setExpandNav] = useState(false);

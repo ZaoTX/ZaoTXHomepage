@@ -1,4 +1,4 @@
-import React from 'react'
+
 interface ProjectItemProps {
     image: string;
     title: string;
@@ -11,7 +11,7 @@ function ProjectItem({image, title, description, link}:ProjectItemProps) {
         <div>
             
         </div>
-        <h1>{title}</h1>
+        <h1>{title},{image},{description},{link}</h1>
     </div>
   )
 }

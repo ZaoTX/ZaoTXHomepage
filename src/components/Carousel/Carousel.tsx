@@ -1,5 +1,5 @@
 import  "./Carousel.css";
-import React, {useState} from "react";
+import {useState} from "react";
 import { RiArrowLeftSLine, RiArrowRightSLine } from "react-icons/ri";
 interface CarouselProps {
   imageurls: string[];

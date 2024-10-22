@@ -1,5 +1,4 @@
-import { FaLinkedin, FaGithub, FaYoutube } from "react-icons/fa";
-import { MdOutlineMail } from "react-icons/md";
+import { FaLinkedin, FaGithub} from "react-icons/fa"; 
 import "./SocialLinks.css";
 function SocialLinks() {
   return (
