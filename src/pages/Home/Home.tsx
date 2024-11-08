@@ -9,7 +9,7 @@ const motivation_content =
   "His daily routine was just tweaking a pink webpage he made. After graduation, he landed the best job in their dormitory. Although " +
   "the reason he got the good job might not necessarily be due to the pink webpage, I also want to create a personal homepage for someone to laugh at, and it " +
   "doesn’t have to be pink.";
-const welcome_content = "This is a simple homepage created by me. I'm a pragmatic student from University of Konstanz who is fighting for the master "+
+const welcome_content = "This is a simple homepage created by me. I'm a pragmatic student from University of Konstanz who is preparing for the master "+
             "colloquium in November 2024 and currently looking for a job in Germany. The theme of my hompage is inspired by the dark theme of Visual Studio Code. "+
             "So you can have the feeling of debugging even when reading my homepage, I hope you like it!"
 function Home() {
