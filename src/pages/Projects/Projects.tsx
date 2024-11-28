@@ -12,6 +12,13 @@ function Projects() {
           link="https://github.com/ZaoTX/ZaoTXHomepage"
           id="0"
         ></ProjectItem>
+        <ProjectItem
+          image={"/images/Projects/ThisHomepage/RaspberryHost.jpg"}
+          title="This Homepage"
+          description={`The homepage is built with React and TypeScript and is hosted on a Raspberry Pi running Apache on my desk. `}
+          link="https://github.com/ZaoTX/ZaoTXHomepage"
+          id="0"
+        ></ProjectItem>
       </div>
     </div>
   );

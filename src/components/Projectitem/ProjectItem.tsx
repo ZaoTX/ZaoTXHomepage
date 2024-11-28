@@ -10,15 +10,15 @@ interface ProjectItemProps {
 }
 function ProjectItem({ image, title, description, link, id }: ProjectItemProps) { 
   return (
-    <div className="projectItem"> 
-      <img className="bgImage" src={image} alt={`Project ${id}`} key={id} /> 
-      <h3>{title}</h3>
-      <h5>{description}</h5>
+    <div className="projectItem">
+      <img className="bgImage" src={image} alt={`Project ${id}`} key={id} />
+      <h3 className="blue_text">{title}</h3>
+      <h4>{description}</h4>
       <a
         href={link}
         target="_blank"
         rel="noopener noreferrer"
-        className="icon-link"
+        className="icon-link giticon"
       >
         <FaGithub />
       </a>
