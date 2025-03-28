@@ -9,6 +9,15 @@
   display: inline-block; /* Allows the container to resize according to content */
   padding-bottom: 10px; /* Optional: adds space at the bottom for the .giticon */
 }
+ .projectItem h4 {
+  display: -webkit-box;
+  -webkit-line-clamp: 4; /* 限制最多显示 4 行 */
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  min-height: calc(1.2em * 4); /* 让 h4 至少占 4 行空间 */ 
+  position: relative;
+}
 .projectItem:hover {
   box-shadow: 0px 3px 15px rgba(0, 0, 0, 0.5);
   transition: 0.3s ease-in; 

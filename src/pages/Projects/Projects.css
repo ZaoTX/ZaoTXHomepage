@@ -1,0 +1,8 @@
+.projectList{
+  display: flex;
+  flex-wrap: wrap; /* 让项目换行 */
+  justify-content: center; /* 水平居中 */
+  align-items: center; /* 垂直居中 */
+  gap: 5px; /* 控制间距 */ 
+
+}

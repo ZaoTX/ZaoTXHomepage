@@ -9,9 +9,10 @@ const motivation_content =
   "His daily routine was just tweaking a pink webpage he made. After graduation, he landed the best job in their dormitory. Although " +
   "the reason he got the good job might not necessarily be due to the pink webpage, I also want to create a personal homepage for someone to laugh at, and it " +
   "doesn’t have to be pink.";
-const welcome_content = "This is a simple homepage created by me. I'm a pragmatic student from University of Konstanz who is preparing for the master "+
-            "colloquium in November 2024 and currently looking for a job in Germany. The theme of my hompage is inspired by the dark theme of Visual Studio Code. "+
-            "So you can have the feeling of debugging even when reading my homepage, I hope you like it!"
+const welcome_content =
+  "I'm a graduate student from University of Konstanz and currently a PhD candidate at Otto-von-Guericke University. " +
+  "This is a simple homepage created by me. The theme of my hompage is inspired by the dark theme of Visual Studio Code. " +
+  "So you can have the feeling of debugging even when reading my homepage, I hope you like it!";
 function Home() {
   return (
     <Fragment>
@@ -76,15 +77,15 @@ function Home() {
               <Paragraph
                 title="Some Posts"
                 content={
-                  "For now, there are just some photos of me and the university. Look at my face, what a relief after the submission of my master thesis. " +
+                  "For now, there are just some photos of me and the university of Konstanz. Look at my face, what a relief after the submission of my master thesis. " +
                   "Maybe I will replace some of them with photos personal projects I'm currently working on. "
                 }
               ></Paragraph>
               <div className="carousel-image-container">
                 <Carousel
                   imageurls={[
-                    "/images/Home/Uni_foto1.jpg",
-                    "/images/Home/UniFoto2.jpg",
+                    "/images/Home/Foto1.jpg",
+                    "/images/Home/Foto2.jpg",
                     "/images/Home/UniFoto3.jpg",
                   ]}
                 ></Carousel>
